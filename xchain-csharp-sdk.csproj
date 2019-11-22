@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>XChainSDK</RootNamespace>
+
+    <!--Nuget properties-->
+    <PackageId>XChainSDKRC</PackageId>
+    <PackageDescription>The C# SDK for XuperChain/XuperUnion. You can get more help info from the github page.</PackageDescription>
+    <Title>XChainSDK Pre-Release</Title>
+    <Version>0.1.2</Version>
+    <Authors>LaZYuc</Authors>
+    <Company>XuperChain</Company>
+    <RepositoryUrl>https://github.com/xuperchain/xuper-sdk-csharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryBranch>master</RepositoryBranch>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.10.0" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.23.2" />
+    <PackageReference Include="Grpc.Tools" Version="2.24.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Protobuf Include="pb\xchain.proto" GrpcServices="Client" />
+  </ItemGroup>
+
+</Project>
