@@ -31,7 +31,7 @@ Install XChainSDK from dotnet cli:
 dotnet add package XChainSDK
 ```
 
-Or you can install from Visual Studio in the nuget package manager, find "XChainSDKRC" and install it.
+Or you can install from Visual Studio in the nuget package manager, find "XChainSDK" and install it.
 
 
 ### 3.2 play
