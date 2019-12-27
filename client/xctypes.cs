@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using Newtonsoft.Json;
 
-namespace XChainSDK
+namespace XuperSDK
 {
     /// <summary>class <c>TxInput</c> is UTXO inputs of a transcation</summary>
     public class TxInput

@@ -6,7 +6,7 @@ using Google.Protobuf;
 using System.Text;
 using System.Security.Cryptography;
 
-namespace XChainSDK
+namespace XuperSDK
 {
     class XDigest
     {

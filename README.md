@@ -26,17 +26,17 @@ Windows/Linux/MacOS are all supported, but only tested on MacOS :).
 
 ### 3.1 install
 
-Install XChainSDK from dotnet cli:
+Install XuperSDK from dotnet cli:
 ```
-dotnet add package XChainSDK
+dotnet add package XuperSDK
 ```
 
-Or you can install from Visual Studio in the nuget package manager, find "XChainSDKRC" and install it.
+Or you can install from Visual Studio in the nuget package manager, find "XuperSDK" and install it.
 
 
 ### 3.2 play
 
-Create a instance of `XChainSDK.XChainClient`.
+Create a instance of `XuperSDK.XChainClient`.
 
 The following code snippet initialize SDK client with a private key store at `./data/keys` folder and the XuperUnion node's GRPC endpoint `127.0.0.1:37101`.
 

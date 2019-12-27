@@ -4,7 +4,7 @@ using System.Numerics;
 using System.Text;
 using Google.Protobuf;
 
-namespace XChainSDK
+namespace XuperSDK
 {
     // XConvert is the converter utilities
     /// <summary>XConvert is the converter utilities</summary>

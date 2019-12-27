@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using Google.Protobuf;
 
-namespace XChainSDK
+namespace XuperSDK
 {
     /// <summary>
-    ///     class <c>XChainClient</c> is the client of XChainSDK, use a instance of XChainClient 
+    ///     class <c>XChainClient</c> is the client of XuperSDK, use a instance of XChainClient 
     ///     to interact with XuperChain Node.
     ///     Note that please call <c>Init</c> method before other methods to initialize XChainClient.
     ///</summary>

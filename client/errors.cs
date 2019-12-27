@@ -1,5 +1,5 @@
 
-namespace XChainSDK
+namespace XuperSDK
 {
     /// <summary>enum <c>ErrorCode</c> is the error code of XChainClient requests</summary>
     public enum ErrorCode

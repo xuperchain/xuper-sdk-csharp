@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>XChainSDK</RootNamespace>
+    <RootNamespace>XuperSDK</RootNamespace>
 
     <!--Nuget properties-->
-    <PackageId>XChainSDKRC</PackageId>
+    <PackageId>XuperSDK</PackageId>
     <PackageDescription>The C# SDK for XuperChain/XuperUnion. You can get more help info from the github page.</PackageDescription>
-    <Title>XChainSDK Pre-Release</Title>
-    <Version>0.1.2</Version>
+    <Title>XuperSDK Pre-Release</Title>
+    <Version>0.1.3</Version>
     <Authors>LaZYuc</Authors>
     <Company>XuperChain</Company>
     <RepositoryUrl>https://github.com/xuperchain/xuper-sdk-csharp</RepositoryUrl>

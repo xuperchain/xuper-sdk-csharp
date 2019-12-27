@@ -2,7 +2,7 @@ using System;
 using System.Numerics;
 using System.Text.Json;
 
-namespace XChainSDK
+namespace XuperSDK
 {
     /// <summary>class <c>ContactVMType</c> is the wrapper for contract VM Type</summary>
     public class ContactVMType

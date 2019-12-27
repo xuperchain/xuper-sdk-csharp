@@ -2,7 +2,7 @@ using System;
 using System.Numerics;
 using System.Security.Cryptography;
 
-namespace XChainSDK
+namespace XuperSDK
 {
     /// <summary>class <c>ECDSASignature</c> is the signature of ECDSA</summary>
     public class ECDSASignature

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Google.Protobuf;
 using System.Text;
 
-namespace XChainSDK
+namespace XuperSDK
 {
     public partial class XChainClient
     {
